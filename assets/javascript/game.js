@@ -1,0 +1,2 @@
+    alert("Choose a Character!");
+
