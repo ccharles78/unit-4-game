@@ -13,48 +13,45 @@
 </head>
 
 <body>
-  <header>
-    <h1>Star Wars RPG</h1>
-  </header>
-
-  <div class="container">
-        <div class="row">
-        <div class="col">
-<h2>Your Characters</h2>
-
-<button id="button-1" class="btn btn-normal">
-<img src="assets/images/AhsokaTano.jpg" alt="Ahsoka Tano"> </button>
-
-<button id="button-2" class="btn btn-normal">
-<img src="assets/images/Anakin.jpg" alt="Ahsoka Tano"> </button>
-
-<button id="button-1" class="btn btn-normal">
-<img src="assets/images/darthvader.jpg" alt="Ahsoka Tano"> </button>
-
-<button id="button-1" class="btn btn-normal">
-<img src="assets/images/yoda.jpg" alt="Ahsoka Tano"> </button>
-</div>
-</div>
-
-
-<div class="container">
-<div class="col-lg-6">
-<div class="card"> 
-<h3 class="card-header">Enemies Available To Attack </h3>
-<div class="card-body">
-<h2 id="first-character">   
-Fight Section </h2>
  
-<button>
- Attack </button>
-      
- <br><h1 id="defender">Defender</h1>
-   </div>
-   <h3 id="second-number">Result</h3>     
+<div class="main-section-title">Star Wars RPG !</div>
+<div id="main-game-section">
+<!-- where the characters are available to be chosen --> 
+<div class id="character-section">
+<div class="section-title">
+Select your Character</div>
+</div>
+<!--Section for our selected character-->
+
+<div id="selected-character-section">
+<div class="section-title">Your Character</div>
+<!--where our selected character will appear-->
+
+<div id="selected-character"></div>
+
+<div id="available-to-attack-section">
+  <div class="section-title"> Enemies available to attack
+</div>
+
+<div class="section-title">Fight Section</div>
+<div id="fight-section">
+  <button id="attack-button">Attack</button>
+</div>
+<div id="action">
+<div class="section-title">Defender</div>  
+<!--Where the defender should appear-->
+<div id="defender"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery.js" src="assets/javascript/game.js" >
    
-
-
-   <script type="text/javascript" src="assets/javascript/game.js"></script>  
+</script>  
   
 
 </body>
